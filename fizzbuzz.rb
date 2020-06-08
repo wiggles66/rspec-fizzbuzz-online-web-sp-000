@@ -1,5 +1,4 @@
 def fizzbuzz
-1.up(100) do |i|
   if i % 3 == 0 && i % 5 == 0
      puts "FizzBuzz"
    elsif i % 3 == 0
