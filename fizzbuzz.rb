@@ -4,3 +4,4 @@ def fizzbuzz?(num)
   when num % 3  == 0 then "Fizz"
   when num % 5  == 0 then "Buzz"
   else num
+end
