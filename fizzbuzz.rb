@@ -6,6 +6,7 @@ def fizzbuzz
      puts "Fizz"
    elsif i %  5 == 0
      puts "Buzz"
-   else puts i
+   else
+      puts i
 end
 end
