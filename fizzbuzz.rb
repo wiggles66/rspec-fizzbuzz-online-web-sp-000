@@ -9,3 +9,4 @@ def fizzbuzz
    else
       puts i
 end
+end
