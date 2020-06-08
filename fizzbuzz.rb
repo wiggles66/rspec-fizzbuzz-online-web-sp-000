@@ -1,12 +1,12 @@
 def fizzbuzz
 1.up(100) do |i|
-  if i % 3 == 0 && i % 5 == 0
+  if int % 3 == 0 && i % 5 == 0
      puts "FizzBuzz"
-   elsif i % 3 == 0
+   elsif int % 3 == 0
      puts "Fizz"
-   elsif i %  5 == 0
+   elsif int %  5 == 0
      puts "Buzz"
    else
-      puts i
+      puts int
 end
 end
