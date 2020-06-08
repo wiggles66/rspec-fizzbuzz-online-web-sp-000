@@ -9,4 +9,3 @@ def fizzbuzz(int)
    else
       puts int
 end
-end
